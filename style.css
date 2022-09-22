@@ -1,0 +1,174 @@
+body{
+    background-color: #1C1427;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top{
+    background-color: #FBCB0A;
+    position: relative;
+    bottom: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.search{
+    width: 40%;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    padding-left: 15px;
+    position: relative;
+    left: 400px;
+    font-family: inherit;
+    font-size: medium;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 2px;
+}
+
+.search:active{
+    border: none;
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ffffff;
+}   
+    
+
+nav .logo img{
+    max-height: 140px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 30px;
+    
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: #F806CC;
+    font-weight: bold;    
+}
+
+nav ul li a:hover{
+    color: #ffffff;
+    transition: 0.2s ease-in-out;
+}
+
+button{
+    border: none;
+    background-color: #F900BF;
+    padding: 15px 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    border-radius: 25px;
+}
+
+button:hover{
+    background-color: #FBCB0A;
+    color: #ffffff;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+section h2{
+    color: #ffffff; 
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.t-c{
+    position: relative;
+    left: 410px;
+    width: 500px;
+    height: 200px;
+}
+
+p{
+    margin-top: 40px;
+    color: white;
+}
+
+
+span{
+    color: #FBCB0A;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+section{
+    padding-bottom: 150px;
+    border-bottom: 1px ridge gray;
+}
+
+
+.features{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    
+}
+
+.feature-1, 
+.feature-2,
+.feature-3 {
+    color: #ffffff;
+    font-size: larger;
+}
+.features span{
+    color: grey;
+    font-size: medium;
+}
+
+
+footer section{
+    padding-bottom: 10px ;
+    margin-top: 30px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.contact{
+    margin-top: 0px;
+    border: none;
+    padding: 10px;
+    
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+}
+
+
+.mail{
+    border-radius: 15px;
+    width: 45px;
+    height: 40px;
+}
+
+.insta{
+    border-radius: 10px;
+    width: 45px;
+    height: 40px;
+}
